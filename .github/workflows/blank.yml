@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main () {
+    int idade, matricula;
+    char nome[50];
+    float altura;
+
+    printf("digite o seu nome: \n");
+    scanf("%s", &nome);
+
+    printf("digite a sua idade: \n");
+    scanf("%d", &idade);
+
+    printf("digite a sua altura: \n");
+    scanf("%f", &altura);
+
+printf("digite a sua matricula: \n");
+scanf("%d", &matricula);
+
+printf ("nome do aluno: %s - matricula: %d", nome, matricula);
+printf ("idade: %d - altura: %f", altura, idade);
+return = 0;
+}
